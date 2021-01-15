@@ -42,7 +42,7 @@ color 97
  setlocal & cd /d %~dp0
  if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
- REM Run shell as admin (example) - put here code as you like
+ REM
 
 :choice
 set /P c=Do you want to install Adb System-wide[Y/N]?
